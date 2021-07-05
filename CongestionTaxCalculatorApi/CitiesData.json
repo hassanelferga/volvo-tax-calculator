@@ -1,0 +1,175 @@
+{
+  "Cities": [
+    {
+      "CityName": "Gothenburg",
+      "MaxTaxValue": "60",
+      "Fares": [
+        {
+          "TimeFrom": "06:00",
+          "TimeTo": "06:29",
+          "TollValue": "8"
+        },
+        {
+          "TimeFrom": "06:30",
+          "TimeTo": "06:59",
+          "TollValue": "13"
+        },
+        {
+          "TimeFrom": "07:00",
+          "TimeTo": "07:59",
+          "TollValue": "18"
+        },
+        {
+          "TimeFrom": "08:00",
+          "TimeTo": "08:29",
+          "TollValue": "13"
+        },
+        {
+          "TimeFrom": "08:30",
+          "TimeTo": "14:59",
+          "TollValue": "8"
+        },
+        {
+          "TimeFrom": "15:00",
+          "TimeTo": "15:29",
+          "TollValue": "13"
+        },
+        {
+          "TimeFrom": "15:30",
+          "TimeTo": "16:59",
+          "TollValue": "18"
+        },
+        {
+          "TimeFrom": "17:00",
+          "TimeTo": "17:59",
+          "TollValue": "13"
+        },
+        {
+          "TimeFrom": "18:00",
+          "TimeTo": "18:29",
+          "TollValue": "8"
+        },
+        {
+          "TimeFrom": "18:30",
+          "TimeTo": "05:59",
+          "TollValue": "0"
+        }
+      ]
+    },
+    {
+      "CityName": "Stockholm",
+      "MaxTaxValue": "70",
+      "Fares": [
+        {
+          "TimeFrom": "06:00",
+          "TimeTo": "06:29",
+          "TollValue": "9"
+        },
+        {
+          "TimeFrom": "06:30",
+          "TimeTo": "06:59",
+          "TollValue": "14"
+        },
+        {
+          "TimeFrom": "07:00",
+          "TimeTo": "07:59",
+          "TollValue": "19"
+        },
+        {
+          "TimeFrom": "08:00",
+          "TimeTo": "08:29",
+          "TollValue": "14"
+        },
+        {
+          "TimeFrom": "08:30",
+          "TimeTo": "14:59",
+          "TollValue": "9"
+        },
+        {
+          "TimeFrom": "15:00",
+          "TimeTo": "15:29",
+          "TollValue": "14"
+        },
+        {
+          "TimeFrom": "15:30",
+          "TimeTo": "16:59",
+          "TollValue": "19"
+        },
+        {
+          "TimeFrom": "17:00",
+          "TimeTo": "17:59",
+          "TollValue": "14"
+        },
+        {
+          "TimeFrom": "18:00",
+          "TimeTo": "18:29",
+          "TollValue": "9"
+        },
+        {
+          "TimeFrom": "18:30",
+          "TimeTo": "05:59",
+          "TollValue": "0"
+        }
+      ]
+    }
+  ],
+  "PublicHolidays": [
+    {
+      "Month": 1,
+      "Days": [
+        1
+      ]
+    },
+    {
+      "Month": 3,
+      "Days": [
+        28,
+        29
+      ]
+    },
+    {
+      "Month": 4,
+      "Days": [
+        1,
+        30
+      ]
+    },
+    {
+      "Month": 5,
+      "Days": [
+        1,
+        8,
+        9
+      ]
+    },
+    {
+      "Month": 7,
+      "Days": [
+        0
+      ]
+    },
+    {
+      "Month": 11,
+      "Days": [
+        1
+      ]
+    },
+    {
+      "Month": 12,
+      "Days": [
+        24,
+        25,
+        26,
+        31
+      ]
+    }
+  ],
+  "TollFreeVehicles": [
+    "Motorcycle",
+    "Tractor",
+    "Emergency",
+    "Diplomat",
+    "Foreign",
+    "Military"
+  ]
+}
